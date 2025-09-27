@@ -1,0 +1,47 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.shopper{
+    display: flex;
+    margin: 30px 50px;
+    overflow: auto;
+    justify-content: space-between;
+}
+.search-box {
+    display: flex;
+    border: 3px solid black;
+    box-shadow: 0px 15px 50px 0px #2E839E12;
+    border-radius: 20px;
+    width: 356px;
+    padding: 20px 20px;
+}
+.search {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    width: 300px;
+    height: 34px;
+    border: none;
+}
+.search:focus {
+    border: none;
+    outline: none;
+}
+.cart-box{
+    display: flex;
+    border: 3px solid lime;
+    border-radius: 50px;
+    align-items: center;
+    width: 250px;
+    justify-content: space-around;
+}
+.login-box{
+    font-weight: 500;
+    color: white;
+    background-color: #10B981;
+    display: flex;
+    border: 3px hidden;
+    border-radius: 50px;
+    align-items: center;
+    width: 250px;
+    justify-content: space-around;
+}
