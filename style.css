@@ -45,3 +45,34 @@ body{
     width: 250px;
     justify-content: space-around;
 }
+.green-box {
+    background-color: #10B981;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+.review-and-recomendation {
+    text-align: left;
+    margin-left: 75px;
+}
+h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 60%;
+}
+.buy-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 70px;
+    background-color: #10B981;
+    color: white;
+    font-weight: 600;
+    margin-top: 50px;
+}
