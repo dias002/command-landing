@@ -1,0 +1,232 @@
+body 
+{
+background-color: rgba(175, 238, 238, 0.452);
+
+}
+.abc{
+    text-align: center;      
+    font-family: "Montserrat";/*изменение шрифта*/
+}
+
+
+
+
+
+
+
+
+
+.row {
+      margin: 50px 0px; 
+      text-align: center;
+       font-family: "Montserrat";/*Верхняя надпись*/
+     }
+
+.bottom-row 
+{
+      display: flex;
+      justify-content: center; 
+      gap: 90px; 
+      font-family: "Montserrat";
+}
+
+.TopPiks
+{
+border: 3px solid #10B981;
+background: #10B981;
+padding: 10px 15px;        
+border-radius: 45%;
+color: white;
+height: 25px;
+}
+.Watches
+{
+border: 3px solid #10B981;
+background: white;
+padding: 5px 15px;        
+border-radius: 45%;
+color: #10B981;
+padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.TreeVRyad 
+{
+display: flex;
+justify-content: center; 
+gap: 90px; 
+
+}
+
+.Card1
+{
+margin-top: 100px;
+border: 3px solid #ECFEF4;
+background: white;
+width:361px ;
+height: 413px;
+border-radius:15px ;
+text-align: center;
+position: relative;
+padding-top: 25px;
+}
+
+
+.badgeForCard1  {
+  position: absolute;      
+  width: 50px; 
+  height: 50px;
+  top: 10px;                
+  left: 280px;               
+  background-color: #10B981;    
+  color: white;             
+  padding: 5px 10px;
+  border-radius: 50%;      
+  font-size: 14px;
+  padding-top: 15px;
+  
+  font-family: "Montserrat";
+}
+
+.viewForCard1
+{
+margin-top: 40px;      
+border: 1px solid white;
+width: 319px;
+height: 120px;
+background-color: #C9F2FF;
+border-radius: 15px;
+margin-left: 20px;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 30px;
+font-size: 20px;
+}
+
+.Tvix
+{
+text-align: left;
+padding-left: 75px;
+color: #C00C00;
+}
+
+.dollars20 
+{
+  padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+.Card2
+{
+margin-top: 100px;
+border: 3px solid #C9F2FF;
+background:  #C9F2FF;
+width:361px ;
+height: 438px;
+border-radius:15px ;
+text-align: center;
+position: relative;
+}
+
+/* .badgeForCard2  {
+  position: absolute;      
+  width: 50px; 
+  height: 50px;
+  top: 10px;                
+  left: 280px;               
+  background-color: #10B981;    
+  color: white;             
+  padding: 5px 10px;
+  border-radius: 50%;      
+  font-size: 14px;
+  padding-top: 15px;
+  
+  font-family: "Montserrat";
+} */
+
+
+.viewForCard2
+{
+margin-top: 20px;      
+border: 1px solid white;
+width: 319px;
+height: 120px;
+background-color: #E5D5FF;
+border-radius: 15px;
+margin-left: 20px;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 30px;
+font-size: 20px;
+}
+
+
+
+
+.Card3
+{
+margin-top: 100px;
+border: 3px solid #E5D5FF;
+background:  #E5D5FF;
+width:361px ;
+height: 438px;
+border-radius:15px ;
+text-align: center;
+position: relative;
+}
+
+
+
+.badgeForCard3  {
+  position: absolute;      
+  width: 50px; 
+  height: 50px;
+  top: 10px;                
+  left: 280px;               
+  background-color: #845EC2;    
+  color: white;             
+  padding: 5px 10px;
+  border-radius: 50%;      
+  font-size: 14px;
+  padding-top: 15px;
+  
+  font-family: "Montserrat";
+}
+
+
+.viewForCard3
+{
+margin-top: 20px;      
+border: 1px solid white;
+width: 319px;
+height: 120px;
+background-color: white;
+border-radius: 15px;
+margin-left: 20px;
+font-family: "Montserrat";
+text-align: center;
+padding-top: 20px;
+font-size: 20px;
+
+}
+
+
+
