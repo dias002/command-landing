@@ -45,3 +45,12 @@ body{
     width: 250px;
     justify-content: space-around;
 }
+.green-box {
+    background-color: #10B981;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    color: white;
+}
