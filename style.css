@@ -1,50 +1,6 @@
 body{
-    font-family: "Montserrat", sans-serif;
+    background-color: #845EC2;
 }
-.shopper{
-    display: flex;
-    margin: 30px 50px;
-    overflow: auto;
-    justify-content: space-between;
-}
-.search-box {
-    display: flex;
-    border: 3px solid black;
-    box-shadow: 0px 15px 50px 0px #2E839E12;
-    border-radius: 20px;
-    width: 356px;
-    padding: 20px 20px;
-}
-.search {
-    font-size: 15px;
-    font-family: "Montserrat", sans-serif;
-    width: 300px;
-    height: 34px;
-    border: none;
-}
-.search:focus {
-    border: none;
-    outline: none;
-}
-.cart-box{
-    display: flex;
-    border: 3px solid lime;
-    border-radius: 50px;
-    align-items: center;
-    width: 250px;
-    justify-content: space-around;
-}
-.login-box{
-    font-weight: 500;
-    color: white;
-    background-color: #10B981;
-    display: flex;
-    border: 3px hidden;
-    border-radius: 50px;
-    align-items: center;
-    width: 250px;
-    justify-content: space-around;
-}   
 .products{
     display: flex;
     align-items: center;
@@ -71,22 +27,23 @@ body{
 }
 .qa{
     display: flex;
-    justify-content: center;  /* Центр по горизонтали */
-    margin-top: -30px;         /* Подними выше (можешь изменить число) */
+    justify-content: center;
+    margin-top: -30px;
     text-align: center;
     border-radius: 300px;
 }
 .qb{
     display: flex;
-    justify-content: center;  /* Центр по горизонтали */
-    margin-top: 10px;         /* Подними выше (можешь изменить число) */
+    justify-content: center;
+    margin-top: 10px;
     text-align: center;
     border-radius: 100px;
 }
+
 .qc{
     display: flex;
-    justify-content: center;  /* Центр по горизонтали */
-    margin-top: 10px;         /* Подними выше (можешь изменить число) */
+    justify-content: center;
+    margin-top: 10px;
     text-align: center;
     border-radius: 100px;
 }
@@ -96,12 +53,16 @@ body{
     display: inline-block;
     cursor: pointer;
 }
+
 .zx{
-    font-size: 32px;   /* можешь менять под себя */
+    font-size: 32px;
     font-weight: bold;
 }
 
 .zc{
-    font-size: 20px;   /* тоже можно увеличить */
+    font-size: 20px;
     font-weight: normal;
+}
+.a{
+    text-align:700px;
 }
