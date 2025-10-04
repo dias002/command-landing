@@ -1,6 +1,7 @@
 
 body{
     font-family: "Montserrat", sans-serif;
+    background-color: rgb(237, 238, 238);
 }
 .shopper{
     display: flex;
@@ -77,12 +78,6 @@ h1 {
     font-weight: 600;
     margin-top: 50px;
 }
-
-body 
-{
-background-color: rgb(237, 238, 238);
-
-}
 .abc{
     text-align: center;      
     font-family: "Montserrat";/*изменение шрифта*/
@@ -121,18 +116,6 @@ border-radius: 45%;
 color: #10B981;
 padding-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .TreeVRyad 
 {
@@ -200,13 +183,6 @@ color: #C00C00;
 
 }
 
-
-
-
-
-
-
-
 .Card2
 {
 margin-top: 100px;
@@ -243,10 +219,6 @@ text-align: left;
 padding-left: 93px;
 color: #C00C00;
 }
-
-
-
-
 
 .Card3
 {
@@ -303,9 +275,7 @@ padding-left: 75px;
 color: #C00C00;
 }
 
-body{
-    background-color: #845EC2;
-}
+
 .products{
     display: flex;
     align-items: center;
