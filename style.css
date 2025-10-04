@@ -76,3 +76,33 @@ h1 {
     font-weight: 600;
     margin-top: 50px;
 }
+.review-box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: -15px;
+    align-items: center;
+    margin-top: 40px;
+}
+.review-box img {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.review-box img + img {
+    left: 30px;
+    z-index: 2;
+}
+.review-box img + img + img {
+    left: 60px;
+    z-index: 3;
+}
+.review-box img + img + img + img {
+    left: 90px;
+    z-index: 4;
+}
+.review-box p {
+    position: absolute;
+    left: 170px;
+    font-size: 18px;
+}
