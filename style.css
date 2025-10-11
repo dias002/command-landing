@@ -106,3 +106,14 @@ h1 {
     left: 170px;
     font-size: 18px;
 }
+.most_hard_shit {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.headphones {
+    color: red;
+}
+.headphones p {
+    margin-top: -10px;
+}
