@@ -1,5 +1,31 @@
 body{
     font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo p{
+    margin: 0;
+    padding: 0;
+    font-size: 42px;
+    font-style:italic;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: end;
+}
+.logo p:nth-child(1){
+    color: #10B981;
+    font-weight: 300;
+}
+.logo p:nth-child(2){
+    color: black;
+    font-weight: 300;
 }
 .shopper{
     display: flex;
