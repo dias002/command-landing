@@ -53,6 +53,9 @@ const SuiProgress = forwardRef(({ color, value, gradient, noLabel, ...rest }, re
   );
 });
 
+// Setting display name for the component
+SuiProgress.displayName = "SuiProgress";
+
 // Setting default values for the props of SuiProgress
 SuiProgress.defaultProps = {
   color: "info",

@@ -61,6 +61,9 @@ const SuiTypography = forwardRef(
   }
 );
 
+// Setting display name for the component
+SuiTypography.displayName = "SuiTypography";
+
 // Setting default values for the props of SuiTypography
 SuiTypography.defaultProps = {
   textColor: "dark",

@@ -64,6 +64,9 @@ const SuiBadge = forwardRef(
   }
 );
 
+// Setting display name for the component
+SuiBadge.displayName = "SuiBadge";
+
 // Setting default values for the props of SuiBadge
 SuiBadge.defaultProps = {
   color: "info",

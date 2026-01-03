@@ -48,6 +48,9 @@ const SuiButton = forwardRef(
   }
 );
 
+// Setting display name for the component
+SuiButton.displayName = "SuiButton";
+
 // Setting default values for the props of SuiButton
 SuiButton.defaultProps = {
   size: "medium",

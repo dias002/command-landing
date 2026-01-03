@@ -54,6 +54,9 @@ const NotificationItem = forwardRef(({ color, image, title, date, ...rest }, ref
   );
 });
 
+// Setting display name for the component
+NotificationItem.displayName = "NotificationItem";
+
 // Setting default values for the props of NotificationItem
 NotificationItem.defaultProps = {
   color: "dark",

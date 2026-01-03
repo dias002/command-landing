@@ -42,6 +42,9 @@ const SuiAvatar = forwardRef(({ backgroundColor, size, boxShadow, customClass, .
   );
 });
 
+// Setting display name for the component
+SuiAvatar.displayName = "SuiAvatar";
+
 // Setting default values for the props of SuiAvatar
 SuiAvatar.defaultProps = {
   backgroundColor: "transparent",

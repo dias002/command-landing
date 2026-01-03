@@ -55,6 +55,9 @@ const SuiBox = forwardRef(
   }
 );
 
+// Setting display name for the component
+SuiBox.displayName = "SuiBox";
+
 // Setting default values for the props of SuiBox
 SuiBox.defaultProps = {
   backgroundColor: "transparent",

@@ -112,6 +112,9 @@ const SuiInput = forwardRef(
   }
 );
 
+// Setting display name for the component
+SuiInput.displayName = "SuiInput";
+
 // Setting default values for the props of SuiInput
 SuiInput.defaultProps = {
   size: "medium",
